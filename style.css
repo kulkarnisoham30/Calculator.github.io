@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Borel&family=Lato:wght@300;400&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.container {
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(555, 555, 555, 0.5);
+}
+
+input {
+    margin: 10px 10px 10px 12.7px;
+    padding: 10px;
+    background: transparent;
+    color: whitesmoke;
+    margin-bottom: 28px;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    width: 23.8vw;
+    height: 7vh;
+}
+
+.container ::placeholder {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rebeccapurple(315, 315, 1);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16.9px;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.ac:hover {
+    background-color: rgb(251, 251, 58);
+    color: red;
+}
+
+.ac1 {
+    color: green;
+}
+
+.ac1:hover {
+    background-color: rgb(251, 251, 58);
+    color: red;
+}
+
+.dell {
+    color: green;
+}
+
+.dell:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.Equal {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.Equal:hover {
+    background: green;
+    color: whitesmoke;
+}
+
+.operator:hover {
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 20px;
+        width: 23vh;
+        height: 5vh;
+    }
+
+    input::placeholder {
+        width: 30vw;
+    }
+
+    button {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
